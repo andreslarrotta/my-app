@@ -1,0 +1,18 @@
+@import "../styles/foundation/foundation.scss";
+
+.Header {
+  background: yellow;
+
+  &_container {
+    background: blue;
+    @include xy-grid-container;
+    @include xy-grid;
+  }
+  &_column {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    @include xy-cell(6);
+  }
+}
