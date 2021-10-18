@@ -1,0 +1,72 @@
+@import "../styles/foundation/foundation.scss";
+
+.home {
+  background: #fee700;
+  &_container {
+    @include xy-grid;
+    @include xy-grid-container;
+
+    padding: 50px;
+
+    &_column {
+      @include xy-cell(6);
+      text-align: right;
+
+      @include breakpoint(medium down) {
+        @include xy-cell(12);
+        text-align: center;
+      }
+
+      h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 47px;
+        color: #000000;
+      }
+      h2 {
+        font-family: Roboto;
+        font-style: italic;
+        font-weight: 200;
+        font-size: 25px;
+        line-height: 29px;
+      }
+      h3 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 29px;
+      }
+      p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        @include breakpoint(medium down) {
+          justify-content: center;
+        }
+        li {
+          list-style: none;
+          margin-right: 15px;
+
+          a {
+            img {
+              width: 34px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
