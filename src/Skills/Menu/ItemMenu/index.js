@@ -3,7 +3,7 @@ import './styles.scss';
 
 const ItemMenu = (props) => {
     return (
-        <li>{props.text}</li>
+        <li className="skills_menu_item">{props.text}</li>
     );
 }
 

@@ -1,4 +1,4 @@
-li {
+.skills_menu_item{
   list-style: none;
   font-family: Roboto;
   font-style: normal;
@@ -9,7 +9,7 @@ li {
   text-transform: uppercase;
   transition: all 0.5s;
 }
-li:hover {
+.skills_menu_item:hover {
   background: black;
   color: white;
   cursor: pointer;
