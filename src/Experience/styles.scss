@@ -1,0 +1,36 @@
+@import "../styles/foundation/foundation.scss";
+
+.experience {
+  background: black;
+  color: white;
+  &_container {
+    @include xy-grid;
+    @include xy-grid-container;
+
+    &_title {
+      @include xy-cell(12);
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: right;
+      h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 59px;
+        text-align: right;
+        text-transform: uppercase;
+      }
+    }
+    &_line_time {
+      @include xy-cell(3);
+    }
+    &_items_experience {
+      @include xy-cell(6);
+    }
+    &_margen {
+      @include xy-cell(3);
+    }
+  }
+}

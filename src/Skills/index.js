@@ -2,9 +2,9 @@ import './styles.scss';
 /* import logo from '../assets/andres_larrotta_logo.png';*/
 
 //components
-import Menu from '../Skills/Menu/index';
-import TextSkills from '../Skills/TextSkills/index';
-import ItemSkills from '../Skills/ItemSkills/index';
+import Menu from './Menu/index';
+import TextSkills from './TextSkills/index';
+import ItemSkills from './ItemSkills/index';
 
 const Skills = () => {
     return (
