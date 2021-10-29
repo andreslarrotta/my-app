@@ -4,6 +4,7 @@ import './styles.scss';
 //components
 import Menu from '../Skills/Menu/index';
 import TextSkills from '../Skills/TextSkills/index';
+import ItemSkills from '../Skills/ItemSkills/index';
 
 const Skills = () => {
     return (
@@ -18,20 +19,10 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="skills_container_content">
-                    <div className="skills_container_content_item">
-                        <div className="skill_image">
-                            <img src="/" alt="" />
-                            <div className="percent">85%</div>
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                    </div>
-                    <div className="skills_container_content_item">
-                        <div className="skill_image">
-                            <img src="/" alt="" />
-                            <div className="percent">85%</div>
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                    </div>
+                    <ItemSkills />
+                    <ItemSkills />
+                    <ItemSkills />
+                    <ItemSkills />
                 </div>
             </div>
         </section>

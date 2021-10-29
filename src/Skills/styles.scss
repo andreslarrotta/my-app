@@ -21,12 +21,17 @@
       }
       .text_skills {
         @include xy-cell(6);
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
         @include breakpoint(medium down) {
           @include xy-cell(12);
           text-align: center;
         }
       }
+    }
+    &_content {
+      padding-top: 40px;
     }
   }
 }
