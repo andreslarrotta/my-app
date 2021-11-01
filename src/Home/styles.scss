@@ -39,6 +39,7 @@
         font-weight: 200;
         font-size: 25px;
         line-height: 29px;
+        
         @include breakpoint(small down) {
           font-size: 18px;
         }
