@@ -17,4 +17,9 @@
       font-weight: 400;
     }
   }
+  @include breakpoint(small down) {
+    & {
+      width: 100%;
+    }
+  }
 }

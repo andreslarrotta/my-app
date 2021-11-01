@@ -1,4 +1,6 @@
-.skills_menu_item{
+@import "../../../styles/foundation/foundation.scss";
+
+.skills_menu_item {
   list-style: none;
   font-family: Roboto;
   font-style: normal;
@@ -8,6 +10,10 @@
   color: #000000;
   text-transform: uppercase;
   transition: all 0.5s;
+
+  @include breakpoint(small down) {
+    font-size: 30px;
+  }
 }
 .skills_menu_item:hover {
   background: black;
