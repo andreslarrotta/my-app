@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './styles.scss';
 /* import logo from '../assets/andres_larrotta_logo.png';*/
 
@@ -7,15 +8,22 @@ import TextSkills from './TextSkills/index';
 import ItemSkills from './ItemSkills/index';
 
 const Skills = () => {
+    const [typeToView, setTypeToView] = useState('WEB DESIGN');
+
+    // actions
+    const eventTabButton = async (event) => {
+        setTypeToView(event)
+    } // eventTabButton
+    console.log('click final', typeToView);
     return (
         <section className="skills">
             <div className="skills_container">
                 <div className="skills_container_header">
                     <div className="menu">
-                        <Menu />
+                        <Menu visible={typeToView} eventTabButton={eventTabButton} />
                     </div>
                     <div className="text_skills">
-                        <TextSkills />
+                        <TextSkills text={typeToView} />
                     </div>
                 </div>
                 <div className="skills_container_content">

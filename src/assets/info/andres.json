@@ -1,0 +1,11 @@
+{
+    "web": {
+        "text": "Hola soy el texto de Web Desing"
+    },
+    "develop": {
+        "text": "Hola soy el texto de Web Develop"
+    },
+    "commerce": {
+        "text": "Hola soy el texto de E-commerce"
+    }
+}

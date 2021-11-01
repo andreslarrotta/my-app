@@ -1,10 +1,24 @@
+import { useState, useEffect } from 'react';
 import './styles.scss';
-/* import logo from '../assets/andres_larrotta_logo.png';*/
+import Info from '../../assets/info/andres.json'
 
 
-const TextSkills = () => {
+const TextSkills = ({ text }) => {
+    const [informacion, setInformacion] = useState('')
+    useEffect(() => {
+        if (text === 'WEB DESIGN') {
+            setInformacion(Info.web.text)
+        }
+        if (text === 'WEB DEVELOP') {
+            setInformacion(Info.develop.text)
+        }
+        if (text === 'E-COMMERCE') {
+            setInformacion(Info.commerce.text)
+        }
+    }, [text])
+
     return (
-        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        <p>{informacion}</p>
     );
 }
 
