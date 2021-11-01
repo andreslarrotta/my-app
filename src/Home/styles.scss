@@ -8,6 +8,10 @@
 
     padding: 50px;
 
+    @include breakpoint(small down) {
+      padding: 48px 5px;
+    }
+
     &_column {
       @include xy-cell(6);
       text-align: right;
@@ -24,6 +28,10 @@
         font-size: 40px;
         line-height: 47px;
         color: #000000;
+
+        @include breakpoint(small down) {
+          font-size: 27px;
+        }
       }
       h2 {
         font-family: Roboto;
@@ -31,6 +39,9 @@
         font-weight: 200;
         font-size: 25px;
         line-height: 29px;
+        @include breakpoint(small down) {
+          font-size: 18px;
+        }
       }
       h3 {
         font-family: Roboto;
