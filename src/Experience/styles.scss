@@ -4,6 +4,9 @@
   background: black;
   color: white;
   padding: 80px 0;
+  @include breakpoint(small down) {
+    padding: 0 0;
+  }
   &_container {
     @include xy-grid;
     @include xy-grid-container;
@@ -22,6 +25,9 @@
         line-height: 59px;
         text-align: right;
         text-transform: uppercase;
+        @include breakpoint(small down) {
+          font-size: 30px;
+        }
       }
     }
     &_line_time {
@@ -29,6 +35,10 @@
       position: relative;
       @include breakpoint(medium down) {
         @include xy-cell(1);
+      }
+      @include breakpoint(small down) {
+        @include xy-cell(0);
+        display: none;
       }
       .draw_line {
         background: white;
@@ -52,7 +62,7 @@
         padding: 0;
         padding-left: 31px;
         height: 100%;
-        
+
         @include breakpoint(medium down) {
           padding-left: 20px;
         }
@@ -76,7 +86,10 @@
       @include xy-cell(6);
 
       @include breakpoint(medium down) {
-        @include xy-cell(11);
+        @include xy-cell(10);
+      }
+      @include breakpoint(small down) {
+        @include xy-cell(12);
       }
     }
     &_margen {

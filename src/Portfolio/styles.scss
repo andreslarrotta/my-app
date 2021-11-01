@@ -4,6 +4,9 @@
   background: white;
   color: black;
   padding: 80px 0;
+  @include breakpoint(small down) {
+    padding: 0 0;
+  }
   &_container {
     @include xy-grid;
     @include xy-grid-container;
@@ -22,6 +25,9 @@
         line-height: 59px;
         text-align: right;
         text-transform: uppercase;
+        @include breakpoint(small down) {
+          font-size: 30px;
+        }
       }
     }
     &_items_portfolio {

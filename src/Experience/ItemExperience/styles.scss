@@ -36,6 +36,15 @@
       margin-left: 10px;
     }
   }
+  &_description {
+    p {
+      @include breakpoint(small down) {
+        font-size: 13px;
+        line-height: 17px;
+        margin-bottom: 20px;
+      }
+    }
+  }
   &_see_more {
     text-align: right;
     a {
