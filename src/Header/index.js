@@ -5,7 +5,7 @@ import Mobile from './Mobile/index';
 
 const Header = () => {
     const [mobile, setMobile] = useState(true)
-    const widthScreen = document.querySelector('body').innerWidth
+    const widthScreen = document.querySelector('body').offsetWidth
 
     useEffect(() => {
         if (widthScreen < 650) {
@@ -14,15 +14,16 @@ const Header = () => {
         else {
             setMobile(false)
         }
-        window.addEventListener('resize', (e) => {
-            if (e.target.innerWidth < 650) {
-                setMobile(true)
-            }
-            else {
-                setMobile(false)
-            }
-        });
-    })
+    }, [mobile])
+    console.log('ancho de la pagina', widthScreen);
+    window.addEventListener('resize', (e) => {
+        if (e.target.innerWidth < 650) {
+            setMobile(true)
+        }
+        else {
+            setMobile(false)
+        }
+    });
     return (
         <>
             {mobile
@@ -31,28 +32,30 @@ const Header = () => {
                     <div className="header">
                         <div className="header_container">
                             <div className="header_column">
-                                <img src={logo} alt="Andres Felipe Larrotta Pino Logo" />
+                                <a href="/">
+                                    <img src={logo} alt="Andres Felipe Larrotta Pino Logo" />
+                                </a>
                             </div>
                             <div className="header_column">
                                 <nav>
                                     <ul>
                                         <li>
-                                            <a href="/users">
+                                            <a href="/">
                                                 About me
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="/">
+                                            <a href="/#skills">
                                                 Skills
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="/about-me">
+                                            <a href="/experience/all">
                                                 Experience
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="/about-me">
+                                            <a href="/portfolio">
                                                 Portfolio
                                             </a>
                                         </li>

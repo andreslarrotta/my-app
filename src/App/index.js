@@ -3,6 +3,7 @@ import Header from '../Header/index';
 import Home from '../Home/index';
 import Skills from '../Skills/index';
 import Experience from '../Experience/index';
+import ExperienceAll from '../ExperienceAll/index';
 import Portfolio from '../Portfolio/index';
 
 import {
@@ -22,13 +23,13 @@ const App = () => {
                 <Portfolio /> */}
 
                 <Switch>
-                    <Route path="/about">
+                    <Route path="/experience/all">
                         <Header />
-                        <Skills />
+                        <ExperienceAll />
                     </Route>
-                    <Route path="/users">
+                    <Route path="/portfolio">
                         <Header />
-                        <Experience />
+                        <Portfolio />
                     </Route>
                     <Route path="/">
                         <Header />

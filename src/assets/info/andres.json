@@ -1,11 +1,17 @@
 {
     "web": {
-        "text": "Hola soy el texto de Web Desing",
+        "text": "Hola mi vida te amo mucho",
         "skills": [
             {
                 "skill": "Photoshop",
                 "image": "/images/001-photoshop.png",
-                "value": 15,
+                "value": 100,
+                "text": "Photoshop Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            },
+            {
+                "skill": "Photoshop",
+                "image": "/images/001-photoshop.png",
+                "value": 100,
                 "text": "Photoshop Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
             },
             {
@@ -82,6 +88,56 @@
                 "endDate": "2021",
                 "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
             }
+        ],
+        "companiesall": [
+            {
+                "name": "Isobar",
+                "image": "/images/003-experience.png",
+                "cargo": "Front-end Developer",
+                "startDate": "2017",
+                "endDate": "2021",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            },
+            {
+                "name": "Titamedia",
+                "image": "/images/002-illustrator.png",
+                "cargo": "Front-end Developer",
+                "startDate": "2017",
+                "endDate": "2021",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            },
+            {
+                "name": "CodeLabs",
+                "image": "/images/001-photoshop.png",
+                "cargo": "Front-end Developer",
+                "startDate": "2017",
+                "endDate": "2021",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            },
+            {
+                "name": "CodeLabs",
+                "image": "/images/001-photoshop.png",
+                "cargo": "Front-end Developer",
+                "startDate": "2017",
+                "endDate": "2021",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            },
+            {
+                "name": "CodeLabs",
+                "image": "/images/001-photoshop.png",
+                "cargo": "Front-end Developer",
+                "startDate": "2017",
+                "endDate": "2021",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            },
+            {
+                "name": "CodeLabs",
+                "image": "/images/001-photoshop.png",
+                "cargo": "Front-end Developer",
+                "startDate": "2017",
+                "endDate": "2021",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            }
         ]
     },
     "portfolio": [
@@ -98,11 +154,6 @@
         {
             "image": "/images/portfolio_dummi.jpg",
             "title": "Titamedia - 2019",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-        },
-        {
-            "image": "/images/portfolio_dummi.jpg",
-            "title": "Alcabama - 2018",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
         },
         {

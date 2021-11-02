@@ -33,7 +33,7 @@ const Skills = () => {
 
    /*  console.log('click final', typeToView); */
     return (
-        <section className="skills">
+        <section className="skills" id="skills">
             <div className="skills_container">
                 <div className="skills_container_header">
                     <div className="menu">
