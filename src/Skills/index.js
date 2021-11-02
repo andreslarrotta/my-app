@@ -1,6 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './styles.scss';
 /* import logo from '../assets/andres_larrotta_logo.png';*/
+
+import Info from '../assets/info/andres.json'
 
 //components
 import Menu from './Menu/index';
@@ -14,7 +16,22 @@ const Skills = () => {
     const eventTabButton = async (event) => {
         setTypeToView(event)
     } // eventTabButton
-    console.log('click final', typeToView);
+
+    const [skillsArray, setSkillsArray] = useState([])
+
+    useEffect(() => {
+        if (typeToView === 'WEB DESIGN') {
+            setSkillsArray(Info.web.skills)
+        }
+        if (typeToView === 'WEB DEVELOP') {
+            setSkillsArray(Info.develop.skills)
+        }
+        if (typeToView === 'E-COMMERCE') {
+            setSkillsArray(Info.commerce.skills)
+        }
+    }, [typeToView])
+
+   /*  console.log('click final', typeToView); */
     return (
         <section className="skills">
             <div className="skills_container">
@@ -27,10 +44,11 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="skills_container_content">
-                    <ItemSkills />
-                    <ItemSkills />
-                    <ItemSkills />
-                    <ItemSkills />
+                    {
+                        skillsArray.map((item, index) => {
+                            return <ItemSkills skill={item} key={index} />
+                        })
+                    }
                 </div>
             </div>
         </section>

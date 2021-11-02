@@ -1,11 +1,59 @@
 {
     "web": {
-        "text": "Hola soy el texto de Web Desing"
+        "text": "Hola soy el texto de Web Desing",
+        "skills": [
+            {
+                "skill": "Photoshop",
+                "image": "/images/001-photoshop.png",
+                "value": 15,
+                "text": "Photoshop Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            },
+            {
+                "skill": "Illustrator",
+                "image": "/images/002-illustrator.png",
+                "value": 20,
+                "text": "Illustrator Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            },
+            {
+                "skill": "XD",
+                "image": "/images/003-experience.png",
+                "value": 80,
+                "text": " XD XD XD Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            }
+        ]
     },
     "develop": {
-        "text": "Hola soy el texto de Web Develop"
+        "text": "Hola soy el texto de Web Develop",
+        "skills": [
+            {
+                "skill": "Illustrator",
+                "image": "/images/002-illustrator.png",
+                "value": 70,
+                "text": "Illustrator Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            },
+            {
+                "skill": "XD",
+                "image": "/images/003-experience.png",
+                "value": 30,
+                "text": " XD XD XD Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            }
+        ]
     },
     "commerce": {
-        "text": "Hola soy el texto de E-commerce"
+        "text": "Hola soy el texto de E-commerce",
+        "skills": [
+            {
+                "skill": "Photoshop",
+                "image": "/images/001-photoshop.png",
+                "value": 50,
+                "text": "Photoshop Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            },
+            {
+                "skill": "Illustrator",
+                "image": "/images/002-illustrator.png",
+                "value": 70,
+                "text": "Illustrator Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            }
+        ]
     }
 }

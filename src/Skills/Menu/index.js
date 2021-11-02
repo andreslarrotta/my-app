@@ -19,9 +19,9 @@ const Menu = ({ visible, eventTabButton }) => {
 
     return (
         <ul>
-            <ItemMenu text="WEB DESIGN" active={visible == 'WEB DESIGN' ? true : false} handleTab={handleChangeToView} />
-            <ItemMenu text="WEB DEVELOP" active={visible == 'WEB DEVELOP' ? true : false} handleTab={handleChangeToView} />
-            <ItemMenu text="E-COMMERCE" active={visible == 'E-COMMERCE' ? true : false} handleTab={handleChangeToView} />
+            <ItemMenu text="WEB DESIGN" active={visible === 'WEB DESIGN' ? true : false} handleTab={handleChangeToView} />
+            <ItemMenu text="WEB DEVELOP" active={visible === 'WEB DEVELOP' ? true : false} handleTab={handleChangeToView} />
+            <ItemMenu text="E-COMMERCE" active={visible === 'E-COMMERCE' ? true : false} handleTab={handleChangeToView} />
         </ul>
 
     );

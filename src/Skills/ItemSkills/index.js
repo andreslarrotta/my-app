@@ -2,17 +2,21 @@ import './styles.scss';
 /* import logo from '../assets/andres_larrotta_logo.png';*/
 
 
-const ItemSkills = () => {
+const ItemSkills = ({ skill }) => {
+    const stylesPercent = {
+        with: '30px'
+    }
     return (
         <div className="skills_container_content_item">
             <div className="skill_image">
-                <img src="/images/001-photoshop.png" alt="" />
+                <img src={skill.image} alt={skill.skill} />
                 <div className="percent">
-                    <span className="percent_value"></span> 85%
+                    <span className="percent_value" style={{ width: `${skill.value}%` }}></span>
+                    {`${skill.value}%`}
                 </div>
             </div>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-        </div>
+            <p>{skill.text}</p>
+        </div >
     );
 }
 
