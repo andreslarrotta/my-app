@@ -23,6 +23,11 @@ const Experience = () => {
                     })}
                 </div>
                 <div className="experience_container_margen"></div>
+                <div className="experience_container_see_more">
+                    <a href="/experience/all">
+                        See more
+                    </a>
+                </div>
             </div>
         </section>
     );
