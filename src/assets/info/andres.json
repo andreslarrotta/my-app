@@ -86,8 +86,34 @@
     },
     "portfolio": [
         {
-            "image": "/images/portfolio_dummi.jpg"
-
+            "image": "/images/portfolio_dummi.jpg",
+            "title": "Isobar - 2021",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+        },
+        {
+            "image": "/images/portfolio_dummi.jpg",
+            "title": "Titamedia - 2020",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+        },
+        {
+            "image": "/images/portfolio_dummi.jpg",
+            "title": "Titamedia - 2019",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+        },
+        {
+            "image": "/images/portfolio_dummi.jpg",
+            "title": "Alcabama - 2018",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+        },
+        {
+            "image": "/images/portfolio_dummi.jpg",
+            "title": "Alcabama - 2018",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+        },
+        {
+            "image": "/images/portfolio_dummi.jpg",
+            "title": "Alcabama - 2018",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
         }
     ]
 }

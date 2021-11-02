@@ -1,6 +1,7 @@
 import './styles.scss';
 //components
 import ItemPortfolio from './ItemPortfolio/index';
+import Info from '../assets/info/andres.json'
 
 const Portfolio = () => {
     return (
@@ -10,12 +11,9 @@ const Portfolio = () => {
                     <h2>portfolio</h2>
                 </div>
                 <div className="portfolio_container_items_portfolio">
-                    <ItemPortfolio />
-                    <ItemPortfolio />
-                    <ItemPortfolio />
-                    <ItemPortfolio />
-                    <ItemPortfolio />
-                    <ItemPortfolio />
+                    {Info.portfolio.map((item, index) => {
+                        return <ItemPortfolio port={item} key={index} />
+                    })}
                 </div>
             </div>
         </section>
