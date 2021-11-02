@@ -55,5 +55,39 @@
                 "text": "Illustrator Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
             }
         ]
-    }
+    },
+    "experience": {
+        "companies": [
+            {
+                "name": "Isobar",
+                "image": "/images/003-experience.png",
+                "cargo": "Front-end Developer",
+                "startDate": "2017",
+                "endDate": "2021",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            },
+            {
+                "name": "Titamedia",
+                "image": "/images/002-illustrator.png",
+                "cargo": "Front-end Developer",
+                "startDate": "2017",
+                "endDate": "2021",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            },
+            {
+                "name": "CodeLabs",
+                "image": "/images/001-photoshop.png",
+                "cargo": "Front-end Developer",
+                "startDate": "2017",
+                "endDate": "2021",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+            }
+        ]
+    },
+    "portfolio": [
+        {
+            "image": "/images/portfolio_dummi.jpg"
+
+        }
+    ]
 }

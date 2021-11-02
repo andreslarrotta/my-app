@@ -1,9 +1,6 @@
 import './styles.scss';
 import ItemExperience from './ItemExperience/index';
-//components
-/* import Menu from '../Skills/Menu/index';
-import TextSkills from '../Skills/TextSkills/index';
- */
+import Info from '../assets/info/andres.json'
 
 const Experience = () => {
     return (
@@ -21,9 +18,9 @@ const Experience = () => {
                     </ul>
                 </div>
                 <div className="experience_container_items_experience">
-                    <ItemExperience />
-                    <ItemExperience />
-                    <ItemExperience />
+                    {Info.experience.companies.map((item, index) => {
+                        return <ItemExperience exp={item} key={index} />
+                    })}
                 </div>
                 <div className="experience_container_margen"></div>
             </div>
