@@ -1,20 +1,28 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './styles.scss';
 import logo from '../assets/andres_larrotta_logo.png';
 import Mobile from './Mobile/index';
 
 const Header = () => {
     const [mobile, setMobile] = useState(true)
+    const widthScreen = document.querySelector('body').innerWidth
 
-    window.addEventListener('resize', (e) => {
-        if (e.target.innerWidth < 650) {
+    useEffect(() => {
+        if (widthScreen < 650) {
             setMobile(true)
         }
         else {
             setMobile(false)
         }
-    });
-
+        window.addEventListener('resize', (e) => {
+            if (e.target.innerWidth < 650) {
+                setMobile(true)
+            }
+            else {
+                setMobile(false)
+            }
+        });
+    })
     return (
         <>
             {mobile
@@ -29,12 +37,12 @@ const Header = () => {
                                 <nav>
                                     <ul>
                                         <li>
-                                            <a href="/about-me">
+                                            <a href="/users">
                                                 About me
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="/about-me">
+                                            <a href="/">
                                                 Skills
                                             </a>
                                         </li>
