@@ -9,12 +9,14 @@ const ExperienceAll = () => {
                 <div className="experience_container_title">
                     <h2>Experience</h2>
                 </div>
-                <div className="experience_container_line_time">
+                <div className="experience_container_line_time_all">
                     <span className="draw_line"></span>
                     <ul>
                         <li>2021</li>
                         <li>2019</li>
                         <li>2017</li>
+                        <li>2016</li>
+                        <li>2015</li>
                     </ul>
                 </div>
                 <div className="experience_container_items_experience">

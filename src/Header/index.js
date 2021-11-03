@@ -60,7 +60,7 @@ const Header = () => {
                                             </a>
                                         </li>
                                         <li className="download">
-                                            <a href="/about-me">
+                                            <a href="./docs/HV_Andres Larrotta_I.pdf" download> 
                                                 Download CV
                                             </a>
                                         </li>

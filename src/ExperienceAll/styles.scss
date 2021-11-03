@@ -30,7 +30,7 @@
         }
       }
     }
-    &_line_time {
+    &_line_time_all {
       @include xy-cell(3);
       position: relative;
       @include breakpoint(medium down) {
@@ -74,7 +74,7 @@
           font-size: 20px;
           line-height: 23px;
           width: 100%;
-          height: 33%;
+          height: 20%;
           display: block;
           @include breakpoint(medium down) {
             font-size: 15px;
