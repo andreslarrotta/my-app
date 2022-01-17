@@ -5,6 +5,7 @@ import Skills from '../Skills/index';
 import Experience from '../Experience/index';
 import ExperienceAll from '../ExperienceAll/index';
 import Portfolio from '../Portfolio/index';
+import Footer from '../Footer/index';
 
 import {
     BrowserRouter as Router,
@@ -26,10 +27,12 @@ const App = () => {
                     <Route path="/experience/all">
                         <Header />
                         <ExperienceAll />
+                        <Footer/>
                     </Route>
                     <Route path="/portfolio">
                         <Header />
                         <Portfolio />
+                        <Footer/>
                     </Route>
                     <Route path="/">
                         <Header />
@@ -37,6 +40,7 @@ const App = () => {
                         <Skills />
                         <Experience />
                         {/* <Portfolio /> */}
+                        <Footer/>
                     </Route>
                 </Switch>
             </Router>

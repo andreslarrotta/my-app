@@ -20,7 +20,9 @@ const Mobile = () => {
                         <div className="header_column_mobile_mobile_menu" onClick={handleMenuMobile}>
                             <img src="/images/menu.png" alt="Andres Felipe Larrotta Pino Logo" />
                         </div>
-                        <img src={logo} alt="Andres Felipe Larrotta Pino Logo" />
+                        <a href="/">
+                            <img src={logo} alt="Andres Felipe Larrotta Pino Logo" />
+                        </a>
                     </div>
                     <div className="header_column_mobile">
                         <nav>
