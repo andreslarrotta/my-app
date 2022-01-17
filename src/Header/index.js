@@ -54,11 +54,11 @@ const Header = () => {
                                                 Experience
                                             </a>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <a href="/portfolio">
                                                 Portfolio
                                             </a>
-                                        </li>
+                                        </li> */}
                                         <li className="download">
                                             <a href="./docs/HV_Andres Larrotta_I.pdf" download> 
                                                 Download CV

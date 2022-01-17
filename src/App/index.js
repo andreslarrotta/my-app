@@ -36,7 +36,7 @@ const App = () => {
                         <Home />
                         <Skills />
                         <Experience />
-                        <Portfolio />
+                        {/* <Portfolio /> */}
                     </Route>
                 </Switch>
             </Router>
