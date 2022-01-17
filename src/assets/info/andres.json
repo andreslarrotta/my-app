@@ -1,64 +1,124 @@
 {
     "web": {
-        "text": "Hola mi vida te amo mucho",
+        "text": "I'm a so creative person, as a front-end developer it's so important merge the logic and the artistic part to helps to improve the ux and ui that my own webs and apps. I worked as web designer for a long time and I think that I can give my opinion y many situations about design.",
         "skills": [
             {
-                "skill": "Photoshop",
-                "image": "/images/001-photoshop.png",
-                "value": 100,
-                "text": "Photoshop Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                "skill": "Figma",
+                "image": "/images/skills/figma.png",
+                "value": 60,
+                "text": "I move good inside the app, I understand the interface to design and export my assets, As a passionate person about design make animations and interactions it was so great."
             },
             {
                 "skill": "Photoshop",
-                "image": "/images/001-photoshop.png",
-                "value": 100,
-                "text": "Photoshop Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                "image": "/images/skills/photoshop.png",
+                "value": 70,
+                "text": "Photoshop as a main apps to export my workspace, edit photos, crop photos, adapt my images, take a little photo retouching and design my mockups to present my websites to my customers."
             },
             {
                 "skill": "Illustrator",
-                "image": "/images/002-illustrator.png",
-                "value": 20,
+                "image": "/images/skills/illustrator.png",
+                "value": 40,
                 "text": "Illustrator Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
             },
             {
                 "skill": "XD",
-                "image": "/images/003-experience.png",
-                "value": 80,
-                "text": " XD XD XD Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                "image": "/images/skills/experience.png",
+                "value": 30,
+                "text": "I understand how I can to export files and the workflow , understand the comments from the designers and use their tools to do my work the better way."
             }
         ]
     },
     "develop": {
-        "text": "Hola soy el texto de Web Develop",
+        "text": "I'm a passionate about tech, I like to learn all about new technologies, think that the future is now. have a good bases to build the better way to make webs and apps.",
         "skills": [
             {
-                "skill": "Illustrator",
-                "image": "/images/002-illustrator.png",
-                "value": 70,
-                "text": "Illustrator Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                "skill": "HTML",
+                "image": "/images/skills/html-5.png",
+                "value": 80,
+                "text": ""
             },
             {
-                "skill": "XD",
-                "image": "/images/003-experience.png",
-                "value": 30,
-                "text": " XD XD XD Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                "skill": "CSS3",
+                "image": "/images/skills/css-3.png",
+                "value": 80,
+                "text": " "
+            },
+            {
+                "skill": "JavaScript",
+                "image": "/images/skills/javascript.png",
+                "value": 70,
+                "text": " "
+            },
+            {
+                "skill": "React",
+                "image": "/images/skills/reactjs.png",
+                "value": 60,
+                "text": " "
+            },
+            {
+                "skill": "Node.js",
+                "image": "/images/skills/node-js.png",
+                "value": 50,
+                "text": " "
+            },
+            {
+                "skill": "Github",
+                "image": "/images/skills/github.png",
+                "value": 70,
+                "text": " "
+            },
+            {
+                "skill": "PWA",
+                "image": "/images/skills/pwa.png",
+                "value": 80,
+                "text": " "
+            },
+            {
+                "skill": "SASS",
+                "image": "/images/skills/sass.png",
+                "value": 80,
+                "text": " "
+            },
+            {
+                "skill": "Greensock",
+                "image": "/images/skills/greensock.png",
+                "value": 50,
+                "text": " "
+            },
+            {
+                "skill": "Foundation",
+                "image": "/images/skills/foundation.jpeg",
+                "value": 70,
+                "text": " "
+            },
+            {
+                "skill": "UX / UI",
+                "image": "/images/skills/ux.png",
+                "value": 70,
+                "text": " "
+            },
+            {
+                "skill": "Gulp",
+                "image": "/images/skills/gulp.png",
+                "value": 80,
+                "text": " "
+            },
+            {
+                "skill": "WebPack",
+                "image": "/images/skills/webpack.png",
+                "value": 80,
+                "text": " "
             }
         ]
     },
     "commerce": {
-        "text": "Hola soy el texto de E-commerce",
+        "text": "In my way to improve my skills I found that amazing and incredible adventure that is build e-commerce sites. I know that all the time we think to change the future and it's a long time, but now we have so many tools to create it.",
         "skills": [
             {
-                "skill": "Photoshop",
-                "image": "/images/001-photoshop.png",
-                "value": 50,
-                "text": "Photoshop Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
-            },
-            {
-                "skill": "Illustrator",
-                "image": "/images/002-illustrator.png",
+                "skill": "Vtex",
+                "image": "/images/skills/vtex.jpeg",
                 "value": 70,
-                "text": "Illustrator Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                "text": "in the vtex world I'm front-end developer in vtex legacy and vtexIO, use the vtex CMS to know all about promotions, clusters, catalog , producto and more, to make a good e-commerce sites and bring you the better experience to our costumers."
             }
         ]
     },

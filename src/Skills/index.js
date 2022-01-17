@@ -10,7 +10,7 @@ import TextSkills from './TextSkills/index';
 import ItemSkills from './ItemSkills/index';
 
 const Skills = () => {
-    const [typeToView, setTypeToView] = useState('WEB DESIGN');
+    const [typeToView, setTypeToView] = useState('WEB DEVELOP');
 
     // actions
     const eventTabButton = async (event) => {
