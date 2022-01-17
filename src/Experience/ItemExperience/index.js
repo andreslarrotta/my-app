@@ -18,9 +18,9 @@ const ItemExperience = ({ exp }) => {
             <div className="item_experience_description">
                 <p>{exp.description}</p>
             </div>
-            <div className="item_experience_see_more">
+            {/* <div className="item_experience_see_more">
                 <a href={`/experince/${exp.name}`}>See more</a>
-            </div>
+            </div> */}
         </div>
     );
 }

@@ -12,7 +12,7 @@ const Experience = () => {
                 <div className="experience_container_line_time">
                     <span className="draw_line"></span>
                     <ul>
-                        <li>2021</li>
+                        <li>2022</li>
                         <li>2019</li>
                         <li>2017</li>
                     </ul>

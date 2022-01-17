@@ -28,27 +28,27 @@ const Mobile = () => {
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="/about-me">
+                                    <a href="/">
                                         About me
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/about-me">
+                                    <a href="/#skills">
                                         Skills
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/about-me">
+                                    <a href="/experience/all">
                                         Experience
                                     </a>
                                 </li>
-                                <li>
+                               {/*  <li>
                                     <a href="/about-me">
                                         Portfolio
                                     </a>
-                                </li>
+                                </li> */}
                                 <li className="download">
-                                    <a href="/about-me">
+                                    <a href="./docs/HV_Andres Larrotta_I.pdf" download>
                                         Download CV
                                     </a>
                                 </li>
